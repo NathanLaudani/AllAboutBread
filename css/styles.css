@@ -1,0 +1,67 @@
+
+ body {
+ 	font-family: 'Cuprum', sans-serif;
+ 	background-image: url('../images/BreadWallpaper.jpg');
+ 	background-color: green;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ }
+
+ p{
+ 	color: darkolivegreen;
+ 	font-size: 20px
+ }
+.dropdown{
+	position: relative;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+ .dropdown-content{
+ 	display: none;
+ 	position: absolute;
+ 	background color: #095F00;
+ 	width: 90%;
+ }
+
+ .dropdown-content a {
+ 	background-color: #B4FFAC;
+ 	color:#088A08;
+ 	padding: 10px 16px;
+ 	text-decoration: none;
+ 	display: block;
+ }
+
+ .t_b {
+
+ 	background: rgba(255,255,255,0.5);
+ 	margin-left: 10%;
+ 	margin-right: 10%;
+ 	padding: 5%;
+ 	padding-top: 2%;
+ }
+
+ h1{
+ 	text-align: center;
+ 	color: #003300;
+ 	font-size: 60px
+ }
+
+ ul{
+ 	list-style-type: none;
+ 	color:white;
+ 	font-size: 35px
+ }
+ li{
+ 	display: inline-block;
+ 	width: 18.5%;
+ 	text-align: center;
+ }
+
+h2{
+	text-align: center;
+	color: palegreen;
+	font-size: 30px
+}
